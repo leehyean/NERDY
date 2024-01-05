@@ -515,11 +515,25 @@
 
         });
 
+        // $('.ham_btn').click(function(){
+        //     $('#ham_menu').animate({
+        //         left:0
+        //     },500);
+        // });
+        // $('.close_btn').click(function(){
+        //     $('#ham_menu').fadeOut(500).removeClass('active');
+        // });
+
         $('.ham_btn').click(function(){
-           $('#ham_menu').fadeIn(500).addClass('active');
-        });
-        $('.close_btn').click(function(){
-            $('#ham_menu').fadeOut(500).removeClass('active');
+            $('#ham_menu').addClass('active')
+            $('#ham_menu').animate({
+                left:0
+            },500);
+            $('.close_btn').click(function(){
+                $('#ham_menu').animate({
+                    left:1300
+                },500);
+            });
         });
     </script>
 

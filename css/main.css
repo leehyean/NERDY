@@ -80,7 +80,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #dbdbdb; */
 }
 
 .icon_wrap ul {
@@ -103,12 +102,13 @@ header {
 
 .icon_wrap .ham_btn {
     display: none;
+    cursor: pointer;
 }
 
 #ham_menu {
     position: absolute;
     top: 0;
-    left: 0;
+    right: -1300px;
     background-color: #ffffff;
     height: 100vh;
     width: 100%;
@@ -118,8 +118,6 @@ header {
 
 #ham_menu.active {
     display: block;
-
-
 }
 
 
@@ -168,9 +166,6 @@ header {
 }
 
 
-#ham_menu .menu_wrap ul li:first-child a {
-    color: #7A2BDF;
-}
 
 #ham_menu .menu_wrap .btn h2 {
     font-size: 40px;
@@ -180,6 +175,7 @@ header {
 
 #ham_menu .menu_wrap ul li a:hover {
     font-weight: 700;
+    color: #7A2BDF;
 }
 
 #ham_menu .menu_wrap .btn h2:hover {
@@ -729,8 +725,19 @@ footer .copy {
     }
 
     .in_header {
-        padding: 0 20px;    
+        padding: 0 30px;    
     }
+
+    .logo img {
+        width: 80%;
+        cursor: pointer;
+    }
+
+    .icon_wrap .ham_btn img {
+        width: 65%;
+    }
+
+    /* header */
 
     .main_banner {
         padding-top: 60px;
@@ -744,11 +751,19 @@ footer .copy {
 
     #ham_menu .ham_header {
         height: 60px;
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
+    #ham_menu .ham_header .logo img {
+        width: 80%;
+    }
+
+    /* #ham_menu .ham_header .close_btn {
+        width: 20px;
+    } */
+
     #ham_menu .menu_wrap {
-        padding: 10px 30px;
+        padding: 10px 45px;
     }
 
     #ham_menu .menu_wrap ul li {
@@ -786,7 +801,7 @@ footer .copy {
 
     .section_3 .con_wrap,
     .section_4 .con_wrap {
-        padding: 80px 40px;
+        padding: 80px 30px;
     }
 
 
