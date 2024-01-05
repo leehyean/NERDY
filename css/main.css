@@ -108,7 +108,7 @@ header {
 #ham_menu {
     position: absolute;
     top: 0;
-    right: -1300px;
+    right: -1800px;
     background-color: #ffffff;
     height: 100vh;
     width: 100%;
@@ -725,7 +725,7 @@ footer .copy {
     }
 
     .in_header {
-        padding: 0 30px;    
+        padding: 0 40px;    
     }
 
     .logo img {
@@ -751,7 +751,7 @@ footer .copy {
 
     #ham_menu .ham_header {
         height: 60px;
-        padding: 0 30px;
+        padding: 0 40px;
     }
 
     #ham_menu .ham_header .logo img {
@@ -763,7 +763,7 @@ footer .copy {
     } */
 
     #ham_menu .menu_wrap {
-        padding: 10px 45px;
+        padding: 10px 55px;
     }
 
     #ham_menu .menu_wrap ul li {
@@ -938,10 +938,7 @@ footer .copy {
     }
 
 
-    #ham_menu .ham_header {
-        padding: 0 10px;
-    }
-
+ 
     #ham_menu .menu_wrap {
         padding: 10px 10px;
     }
