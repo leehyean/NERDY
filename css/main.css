@@ -843,6 +843,13 @@ footer .copy {
         padding: 80px 20px;
     }
 
+    .sec_3_title h2, 
+    .sec_4_title h2, 
+    .sec_5_title h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
 
 
     .section_3 .box_wrap,
@@ -1237,3 +1244,5 @@ footer .copy {
 
 
 }
+
+/* ---- 400 end ---- */
