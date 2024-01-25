@@ -843,8 +843,8 @@ footer .copy {
         padding: 80px 20px;
     }
 
-    .sec_3_title h2, 
-    .sec_4_title h2, 
+    .sec_3_title h2,
+    .sec_4_title h2,
     .sec_5_title h2 {
         font-size: 30px;
         font-weight: 600;
@@ -900,7 +900,7 @@ footer .copy {
         height: 450px;
     }
 
-   
+
 
     .section_6 .con_wrap .btn {
         margin-top: 0px;
@@ -908,7 +908,8 @@ footer .copy {
 
     .section_6 .swiper-horizontal>.swiper-pagination-bullets,
     .section_6 .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .section_6 .swiper-pagination-custom, .swiper-pagination-fraction {
+    .section_6 .swiper-pagination-custom,
+    .swiper-pagination-fraction {
         padding-bottom: 80px;
     }
 
@@ -930,8 +931,8 @@ footer .copy {
 
     }
 
-  
-    
+
+
     /* section_7 */
 
 
@@ -1006,7 +1007,10 @@ footer .copy {
         color: #ffffff;
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
         padding-bottom: 10px;
     }
 
@@ -1158,7 +1162,8 @@ footer .copy {
 
     .section_6 .swiper-horizontal>.swiper-pagination-bullets,
     .section_6 .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .section_6 .swiper-pagination-custom, .swiper-pagination-fraction {
+    .section_6 .swiper-pagination-custom,
+    .swiper-pagination-fraction {
         padding-bottom: 10px;
     }
 
@@ -1192,7 +1197,7 @@ footer .copy {
         font-size: 12px;
     }
 
-  
+
 
     /* section_7 */
 

@@ -7,7 +7,7 @@ var swiper = new Swiper(".section_1 .mySwiper", {
   loop: true,
   autoplay: true,
   autoplay: {
-    delay: 4000,
+    delay: 6000,
 
   },
   pagination: {
